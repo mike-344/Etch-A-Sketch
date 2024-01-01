@@ -1,8 +1,7 @@
 body{
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
+    flex-direction: column;
 }
 .container{
     height: 700px;
@@ -11,4 +10,21 @@ body{
     display: flex;
     flex-wrap: wrap;
     
+}
+
+.buttonContainer{
+    display: flex;
+    
+    
+    margin-bottom: 20px;
+}
+
+.gridContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clickme{
+    margin-left: 150PX;
 }
